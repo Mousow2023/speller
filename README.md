@@ -1,35 +1,21 @@
-# CS50 Speller
+# CS50x Speller
 
-The Speller project is a part of Harvard's CS50 course, designed to demonstrate understanding of data structures and algorithms by implementing a spell checker. This program checks the spelling of words from a text file against a dictionary.
-
-## Table of Contents
-
-- [Description](#description)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Structures](#data-structures)
-- [Algorithm](#algorithm)
-- [Testing](#testing)
-- [Credits](#credits)
-
-## Description
-
-The Speller project involves creating a spell checker that reads a dictionary from a file, stores the words in an efficient data structure, and then checks the spelling of words from a text file provided by the user. The project emphasizes the use of hash tables for quick word lookups and memory management.
+## Overview
+The Speller project is part of Harvard's CS50x course, where the goal is to implement a spell checker that can efficiently check the spelling of words using a hash table. This project enhances understanding of data structures, algorithms, and memory management in C.
 
 ## Features
+- **Dictionary Loading:** Loads a dictionary of words from a file into memory using a hash table.
+- **Spell Checking:** Checks the spelling of words input by the user against the loaded dictionary.
+- **Performance Metrics:** Measures the time taken to load the dictionary and check the words, providing insights into the efficiency of the algorithm.
 
-- Loads a dictionary of words from a specified text file.
-- Checks the spelling of words in a given input text file.
-- Outputs the number of misspelled words.
-- Provides suggestions for misspelled words (if implemented).
+## Getting Started
 
-## Installation
+### Prerequisites
+- C programming language
+- Make utility for building the project
 
-To compile and run the program, you need to have `clang` and `make` installed. Follow these steps:
-
-1. Clone the repository:
-
+### Installation
+1. Clone this repository:
    ```bash
    git clone https://github.com/Mousow2023/speller.git
    cd speller
